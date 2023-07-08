@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    border: 2px solid;
+    background-color: aqua;
+    position: fixed;
+    width: 1350px;
+}
+
+ul {
+    list-style: none;
+    margin-left: 300px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    color: blue;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.con-one{
+    height: 1100px;
+    background-color: rgb(255, 243, 74);
+    border-bottom: 2px solid;
+}
+
+.con-two{
+    height: 1400px;
+    background-color: rgb(62, 110, 255);
+    border-bottom: 2px solid;
+}
+
+.con-three{
+    height: 1300px;
+    background-color: rgb(78, 255, 69);
+    border-bottom: 2px solid;
+}
+
+.con-foure{
+    height: 1600px;
+    background-color: rgb(255, 64, 64);
+    border-bottom: 2px solid;
+}
